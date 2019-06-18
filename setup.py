@@ -25,6 +25,7 @@ setup(
     description="Composable command line interface toolkit",
     long_description=readme,
     packages=["click"],
+    install_requires=["setuptools"],
     include_package_data=True,
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
     classifiers=[
